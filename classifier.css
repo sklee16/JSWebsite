@@ -1,0 +1,57 @@
+#reltotable tr td {
+  padding: 10px 10px 10px 10px;
+}
+
+.hide {
+  display: non;
+}
+
+.rbspacing {
+  padding: 0 15px 0 15px;
+  white-space: nowrap;
+}
+
+cbspacing {
+  padding: 2px 15px 2px 15px;
+  white-space: nowrap;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /*Sit on top */
+
+/* padding-top: 25px; /* Location of th ebox */
+margin: 0 auto;
+  left: 15%;
+  top: 10%;
+  width: 70%;
+  height: auto;
+  overflow: auto; /* Enable scroll if needed */
+text-align:center;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  text-align: center;
+}
+
+/* The Close Buttton */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
